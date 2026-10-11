@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Our Services | PatrickStar Tour Guide</title>
+
+        <link rel="stylesheet" href="PatrickStarcss.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    </head>
+
+    <body>
+        <!-- NAVIGATION -->
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    ⭐ <span>Patrick</span>Star
+                    <small>Your Philippine Tour Guide</small>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="PSAbout.html">About</a></li>
+                    <li><a href="PSServices.html" class="active" aria-current="page">Services</a></li>
+                    <li><a href="PSNews.html">News</a></li>
+                    <li><a href="PSContact.html">Contact</a></li>
+                    <li><a href="PSLogin.html">Log In</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- SERVICES -->
+        <main>
+            <section id="services" class="destinations">
+                <h2>Our Services</h2>
+
+                <p class="section-description">
+                    Explore the travel services offered by PatrickStar Tour Guide.
+                    Discover destinations, browse tour package information,
+                    and find inspiration for your Philippine adventure.
+                </p>
+
+                <h2>Featured Destinations</h2>
+                
+                <div class="card-container">
+                    <!-- BORACAY -->
+                    <div class="card">
+                        <img src="unique-boracay-island.jpg"
+                            alt="Boracay Island">
+                        <h3>Boracay</h3>
+                        <p>World famous white sand beach.</p>
+                        <button type="button"
+                                data-modal-open="boracay-modal">
+                            Learn More
+                        </button>
+                    </div>
+
+                    <!-- PALAWAN -->
+                    <div class="card">
+                        <img src="limestone-tower-forest-at-secret-lagoon-beach-miniloc-island-palawan-philippines.jpg"
+                            alt="Palawan">
+                        <h3>Palawan</h3>
+                        <p>Beautiful lagoons and hidden islands.</p>
+                        <button type="button"
+                                data-modal-open="palawan-modal">
+                            Learn More
+                        </button>
+                    </div>
+
+                    <!-- BOHOL -->
+                    <div class="card">
+                        <img src="domv31ccrsr0cco9tgqt.jpg"
+                            alt="Bohol Chocolate Hills">
+                        <h3>Bohol</h3>
+                        <p>Home of Chocolate Hills and Tarsiers.</p>
+                        <button type="button"
+                                data-modal-open="bohol-modal">
+                            Learn More
+                        </button>
+                    </div>
+
+                    <!-- SIARGAO -->
+                    <div class="card">
+                        <img src="surf-shot-instagram-siagao.jpg"
+                            alt="Siargao">
+                        <h3>Siargao</h3>
+                        <p>Surfing Capital of the Philippines.</p>
+                        <button type="button"
+                                data-modal-open="siargao-modal">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- BORACAY POP-UP -->
+            <div class="destination-modal" id="boracay-modal"
+                aria-hidden="true">
+                <div class="modal-content" role="dialog"
+                    aria-modal="true" aria-labelledby="boracay-title">
+                    <button class="modal-close" type="button"
+                            aria-label="Close pop-up">&times;</button>
+
+                    <h2 id="boracay-title">Discover Boracay</h2>
+                    <img class="modal-image"
+                        src="unique-boracay-island.jpg"
+                        alt="Boracay white sand beach">
+
+                    <p>
+                        Boracay is a famous Philippine island known
+                        for its white sand beaches, clear waters,
+                        beautiful sunsets, and exciting island activities.
+                    </p>
+
+                    <h3>Places to Explore</h3>
+                    <ul>
+                        <li><strong>White Beach:</strong> Enjoy the sand,
+                            swimming, and spectacular sunsets.</li>
+                        <li><strong>D'Mall:</strong> Explore shops,
+                            restaurants, and local souvenirs.</li>
+                        <li><strong>Bulabog Beach:</strong> Discover
+                            water sports and a different coastal view.</li>
+                    </ul>
+
+                    <p class="modal-tip">
+                        <strong>Travel tip:</strong> Bring sunscreen,
+                        comfortable clothing, and beach essentials.
+                    </p>
+                </div>
+            </div>
+
+            <!-- PALAWAN POP-UP -->
+            <div class="destination-modal" id="palawan-modal"
+                aria-hidden="true">
+                <div class="modal-content" role="dialog"
+                    aria-modal="true" aria-labelledby="palawan-title">
+                    <button class="modal-close" type="button"
+                            aria-label="Close pop-up">&times;</button>
+                    <h2 id="palawan-title">Discover Palawan</h2>
+                    <img class="modal-image"
+                        src="limestone-tower-forest-at-secret-lagoon-beach-miniloc-island-palawan-philippines.jpg"
+                        alt="Palawan limestone cliffs and lagoon">
+                    <p>
+                        Palawan is celebrated for its limestone cliffs,
+                        turquoise lagoons, hidden beaches, and rich
+                        marine life. It is an excellent destination
+                        for nature lovers and island explorers.
+                    </p>
+                    <h3>Places to Explore</h3>
+                    <ul>
+                        <li><strong>El Nido:</strong> Explore lagoons,
+                            limestone formations, and island-hopping routes.</li>
+                        <li><strong>Coron:</strong> Discover scenic lakes,
+                            snorkeling spots, and clear waters.</li>
+                        <li><strong>Puerto Princesa:</strong> Visit the city
+                            and explore the famous underground river area.</li>
+                    </ul>
+                    <p class="modal-tip">
+                        <strong>Travel tip:</strong> Book popular boat tours
+                        in advance and bring waterproof bags for your items.
+                    </p>
+                </div>
+            </div>
+
+            <!-- BOHOL POP-UP -->
+            <div class="destination-modal" id="bohol-modal"
+                aria-hidden="true">
+                <div class="modal-content" role="dialog"
+                    aria-modal="true" aria-labelledby="bohol-title">
+                    <button class="modal-close" type="button"
+                            aria-label="Close pop-up">&times;</button>
+                    <h2 id="bohol-title">Discover Bohol</h2>
+                    <img class="modal-image"
+                        src="domv31ccrsr0cco9tgqt.jpg"
+                        alt="Bohol Chocolate Hills">
+                    <p>
+                        Bohol is known for its unusual Chocolate Hills,
+                        tiny tarsiers, countryside scenery, and beautiful
+                        beaches. It offers a mix of nature, culture,
+                        and family-friendly sightseeing.
+                    </p>
+                    <h3>Places to Explore</h3>
+                    <ul>
+                        <li><strong>Chocolate Hills:</strong> See the
+                            island's famous cone-shaped hills.</li>
+                        <li><strong>Tarsier Conservation Areas:</strong>
+                            Learn about the small native primates.</li>
+                        <li><strong>Panglao Island:</strong> Enjoy beaches,
+                            snorkeling, and coastal views.</li>
+                    </ul>
+                    <p class="modal-tip">
+                        <strong>Travel tip:</strong> Plan time for the
+                        countryside attractions and wear comfortable shoes.
+                    </p>
+                </div>
+            </div>
+
+            <!-- SIARGAO POP-UP -->
+            <div class="destination-modal" id="siargao-modal"
+                aria-hidden="true">
+                <div class="modal-content" role="dialog"
+                    aria-modal="true" aria-labelledby="siargao-title">
+                    <button class="modal-close" type="button"
+                            aria-label="Close pop-up">&times;</button>
+                    <h2 id="siargao-title">Discover Siargao</h2>
+                    <img class="modal-image"
+                        src="surf-shot-instagram-siagao.jpg"
+                        alt="Siargao island and surfing">
+                    <p>
+                        Siargao is famous for surfing, palm-lined roads,
+                        natural pools, and relaxed island life. Visitors
+                        can enjoy both outdoor adventures and peaceful
+                        coastal scenery.
+                    </p>
+                    <h3>Places to Explore</h3>
+                    <ul>
+                        <li><strong>Cloud 9:</strong> Visit the island's
+                            well-known surfing area.</li>
+                        <li><strong>Magpupungko Rock Pools:</strong>
+                            See natural tidal pools when conditions allow.</li>
+                        <li><strong>Sugba Lagoon:</strong> Enjoy the
+                            beautiful lagoon and its surrounding scenery.</li>
+                    </ul>
+                    <p class="modal-tip">
+                        <strong>Travel tip:</strong> Check tide and weather
+                        conditions before visiting natural pools or joining
+                        water activities.
+                    </p>
+                </div>
+            </div>
+        </main>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer-logo">
+                ⭐ Patrick<span>Star</span>
+                <p>Your Philippine Tour Guide</p>
+            </div>
+
+            <div class="social">
+                <h3>Follow Us</h3>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+
+            <div class="copyright">
+                © 2026 PatrickStar Tour Guide.
+                <br>
+                All Rights Reserved.
+            </div>
+        </footer>
+        <script src="PatrickStarjs.js" defer></script>
+    </body>
+</html>

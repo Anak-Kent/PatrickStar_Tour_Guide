@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Log In | PatrickStar Tour Guide</title>
+
+    <link rel="stylesheet" href="PatrickStarcss.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Pacifico&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body class="login-page">
+
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                ⭐ <span>Patrick</span>Star
+                <small>Your Philippine Tour Guide</small>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="PSAbout.html">About</a></li>
+                <li><a href="PSServices.html">Services</a></li>
+                <li><a href="PSNews.html">News</a></li>
+                <li><a href="PSContact.html">Contact</a></li>
+                <li><a href="PSLogin.html" class="active" aria-current="page">Log In</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- LOGIN FORM -->
+    <main class="login-wrapper">
+        <section class="login-card">
+
+            <div class="login-icon">
+                <i class="fa-solid fa-user"></i>
+            </div>
+
+            <h1>Welcome Back!</h1>
+
+            <p class="login-description">
+                Log in to PatrickStar Tour Guide and start
+                planning your next Philippine adventure.
+            </p>
+
+            <form id="loginForm">
+
+                <div class="login-input-group">
+                    <label for="email">Email Address</label>
+
+                    <div class="login-input-box">
+                        <i class="fa-solid fa-envelope"></i>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            autocomplete="username"
+                            required>
+                    </div>
+                </div>
+
+                <div class="login-input-group">
+                    <label for="password">Password</label>
+
+                    <div class="login-input-box">
+                        <i class="fa-solid fa-lock"></i>
+
+                        <input
+                            type="password"
+                            id="password"
+                            name="password"
+                            placeholder="Enter your password"
+                            autocomplete="current-password"
+                            required>
+
+                        <button
+                            type="button"
+                            id="togglePassword"
+                            class="toggle-password"
+                            aria-label="Show password"
+                            aria-pressed="false">
+                            <i class="fa-solid fa-eye"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <button type="submit" class="login-button">
+                    Log In
+                </button>
+
+                <p id="loginMessage"
+                   class="login-message"
+                   role="status"
+                   aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-logo">
+            ⭐ Patrick<span>Star</span>
+            <p>Your Philippine Tour Guide</p>
+        </div>
+
+        <div class="copyright">
+            © 2026 PatrickStar Tour Guide.
+            <br>
+            All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="PatrickStarjs.js" defer></script>
+
+</body>
+</html>
